@@ -1,0 +1,17 @@
+Creating Migration
+
+php artisan make:migration create_next_followup_table
+
+To run all migraions
+
+php artisan migrate
+z
+To run specific migration
+
+php artisan migrate --path=database\migrations\2023_06_25_162246_create_intersted_table.php
+To run the seeder
+
+php artisan db:seed --class=RoleSeeder
+
+To run the project
+> Php artisan serve
